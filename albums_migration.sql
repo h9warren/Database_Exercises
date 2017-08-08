@@ -7,7 +7,7 @@
   	artist varchar(126),
   	name varchar(126),
   	release_date YEAR(4),
-  	sales FLOAT(10,2),
+  	sales FLOAT(12,2),
   	genre varchar(128),
   	PRIMARY KEY (ID)
   );
