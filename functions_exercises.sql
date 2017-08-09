@@ -10,15 +10,10 @@ select concat(first_name, last_name)
 from employees
 where last_name like "e%e";
 
-/* select *
-from employees
-where last_name like "e%e" */
- 
-
-/* select *
+select datediff(now(), hire_date)
 from employees
 where hire_date like "1990%"
-and birth_date like "%-12-25"; */
+and birth_date like "%-12-25";
 
 /* select *
 from employees
