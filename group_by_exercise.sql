@@ -1,14 +1,15 @@
-/* select distinct title
+select distinct title
 from titles
-order by title asc; */
+order by title asc; 
 
-/* select distinct last_name
+select last_name
 from employees
-where last_name like "e%e"; */
+where last_name like "e%e"
+group by last_name;
 
-/*select distinct first_name, last_name
+select distinct first_name, last_name
 from employees
-where last_name like "e%e"; */
+where last_name like "e%e";
 
 select distinct last_name
 from employees
