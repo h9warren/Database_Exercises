@@ -6,6 +6,11 @@ order by title asc; */
 from employees
 where last_name like "e%e"; */
 
-select distinct first_name, last_name
+/*select distinct first_name, last_name
 from employees
-where last_name like "e%e";
+where last_name like "e%e"; */
+
+select distinct last_name
+from employees
+where last_name like "%q%"
+and last_name not like "%qu%";
