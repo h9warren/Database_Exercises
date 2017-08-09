@@ -1,4 +1,10 @@
-select distinct last_name
+-- select distinct last_name
+-- from employees
+-- order by last_name desc
+-- limit 10;
+
+select *
 from employees
-order by last_name desc
-limit 10;
+where hire_date like "199%"
+and birth_date like "%-12-25"
+limit 5;
