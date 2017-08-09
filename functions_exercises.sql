@@ -6,10 +6,9 @@ or first_name = 'Maya')
 group by gender;
 or first_name = 'Maya');
 
-/* select *
+select concat(first_name, last_name)
 from employees
-where last_name like "e%"
-or last_name like "%e"; */
+where last_name like "e%e";
 
 /* select *
 from employees
